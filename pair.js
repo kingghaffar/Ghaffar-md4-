@@ -56,7 +56,7 @@ router.get('/', async (req, res) => {
                     const credsPath = path.join(tempDir, 'creds.json');
                     const sessionData = fs.readFileSync(credsPath, 'utf8');
                     const base64 = Buffer.from(sessionData).toString('base64');
-                    const sessionId = "PROxABDULLAH-MD~" + base64;
+                    const sessionId = "GHAFFAR-MD~" + base64;
 
                     await sock.sendMessage(sock.user.id, { text: sessionId });
 
@@ -69,7 +69,7 @@ router.get('/', async (req, res) => {
                             `_Powered by GHAFFAR-MD\n\n` +
                             `🔗 *Useful Links:*\n` +
                             `▸ GitHub: https://github.com/kingghaffar/Ghaffar-md4-\n` +
-                            `▸ https://whatsapp.com/channel/0029Vb6f7T1DOQIfHivuTO2L`,
+                            `▸ https://chat.whatsapp.com/C28rtElR6O524EqSqWinU3?mode=ems_copy_t`,
                         contextInfo: {
                             mentionedJid: [sock.user.id],
                             forwardingScore: 1000,
