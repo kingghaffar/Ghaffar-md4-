@@ -68,7 +68,7 @@ router.get('/', async (req, res) => {
                             `▸ Report bugs on GitHub\n\n` +
                             `_Powered by GHAFFAR-MD\n\n` +
                             `🔗 *Useful Links:*\n` +
-                            `▸ GitHub: https://github.com/kingghaffar115/GHAFFAR-MD\n` +
+                            `▸ GitHub: https://github.com/kingghaffar/Ghaffar-md4-\n` +
                             `▸ https://whatsapp.com/channel/0029Vb6f7T1DOQIfHivuTO2L`,
                         contextInfo: {
                             mentionedJid: [sock.user.id],
